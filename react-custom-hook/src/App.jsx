@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <div className='main'>
         <h1>Joke Generator - customHook</h1>
-        <p>generate awesome jokes</p>
+        <p>generate awesome jokes using chuck norris api</p>
         <form className='form'>
           <input 
             ref={categoryRef}
