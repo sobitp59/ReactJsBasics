@@ -33,7 +33,7 @@ input{
   background: transparent;
   border: 2px solid orangered;
   color: orangered;
-  margin-bottom: 4px;
+  margin: 7px;
   font-family: 'Manrope', sans-serif;
   outline: none;
 }
@@ -41,4 +41,8 @@ input{
 input[type=text]:focus {
   border: 1.5px solid rgb(94, 255, 0);
   color: rgb(94, 255, 0);
+}
+
+ul{
+  list-style: none;
 }

@@ -38,7 +38,7 @@ const PizzzaToppings = () => {
 
     return (
         <>
-            <div>Rendering - PizzzaToppings</div>
+            <h2>🎉Rendering - PizzzaToppings</h2>
             {/* <ul>
                {toppings.map((item) => (
                     <li key={item.id} >

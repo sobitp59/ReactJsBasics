@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Memoization from './Memoization'
 import PizzzaToppings from './PizzzaToppings'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <h1>Day 25 - Renedering Keys, Class Componenet, Memoization</h1>
       <PizzzaToppings />
+      <Memoization />
     </div>
   )
 }
