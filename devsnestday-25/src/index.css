@@ -46,3 +46,12 @@ input[type=text]:focus {
 ul{
   list-style: none;
 }
+
+
+.product-image{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid orangered;
+}
