@@ -1,4 +1,5 @@
 import './App.css'
+import ContextExample from './ContextExample'
 import ErrorBoundary from './ErrorBoundary'
 import TodoApp from './usereducer/TodoApp'
 import UseReducerExI from './usereducer/UseReducerExI'
@@ -15,6 +16,9 @@ function App() {
       <div className='box'>
         <UseReducerExI />
         <TodoApp />
+      </div>
+      <div className='box'>
+        <ContextExample />
       </div>
     </div>
   )
