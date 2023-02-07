@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import './App.css'
+import Picture from './components/Picture'
 import Quiz from './components/Quiz'
 
 function App() {
@@ -10,6 +10,9 @@ function App() {
       <p>statement management in react</p>
       <div className='box'>
         <Quiz></Quiz>
+      </div>
+      <div className='box'>
+        <Picture></Picture>
       </div>
     </div>
   )
