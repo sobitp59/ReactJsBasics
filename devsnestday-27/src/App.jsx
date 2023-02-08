@@ -1,4 +1,5 @@
 import './App.css'
+import NestedComp from './components/NestedComp'
 import Picture from './components/Picture'
 import Quiz from './components/Quiz'
 import StateStructure from './components/StateStructure'
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className='box'>
         <StateStructure></StateStructure>
+      </div>
+      <div className='box'>
+        <NestedComp></NestedComp>
       </div>
     </div>
   )
