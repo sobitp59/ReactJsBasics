@@ -1,6 +1,7 @@
 import './App.css'
 import Picture from './components/Picture'
 import Quiz from './components/Quiz'
+import StateStructure from './components/StateStructure'
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div className='box'>
         <Picture></Picture>
+      </div>
+      <div className='box'>
+        <StateStructure></StateStructure>
       </div>
     </div>
   )
