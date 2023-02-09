@@ -2,7 +2,9 @@ import './App.css'
 import NestedComp from './components/NestedComp'
 import Picture from './components/Picture'
 import Quiz from './components/Quiz'
+import ShareState from './components/ShareState'
 import StateStructure from './components/StateStructure'
+
 
 function App() {
 
@@ -21,6 +23,9 @@ function App() {
       </div>
       <div className='box'>
         <NestedComp></NestedComp>
+      </div>
+      <div className='box'>
+        <ShareState></ShareState>
       </div>
     </div>
   )
